@@ -1,7 +1,9 @@
-# Q.4 Print: 11, 14, 19, ..., N 
-def print_series(n):
-    for i in range(1, n+1):
-        print(i * i + 10)
-        
-n = 5
-print_series(n);
+# Q4. Temperature of a city in Fahrenheit degrees is input through the keyboard. Write a program 
+# to convert this temperature into Centigrade degrees.
+
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+
+# Converting Fahrenheit to Celsius
+celsius = (fahrenheit - 32) * 5 / 9
+
+print(f"The temperature in Celsius is: {celsius}°C")
